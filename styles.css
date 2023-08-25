@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(67, 14, 14);
+  margin: 50px 275px 50px 275px;
+  padding: 0;
+
+}
+
+.calculator-body {
+  background-color: rgb(101, 17, 17);
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 3%;
+  box-shadow: 4px 4px 1px;
+  width: 216px;
+  height: 350px;
+  padding: 20px 20px;
+}
+
+input {
+  background-color: black;
+  border: 2px solid rgb(49, 214, 255);
+  border-radius: 10px;
+  width: 200px;
+  height: 55px;
+  color: beige;
+  text-align: end;
+  padding-right: 10px;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+p {
+  width: 216px;
+}
+
+button {
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.numButton {
+  border-radius: 10px;
+  border-color: rgb(49, 214, 255);
+  border-style: solid;
+  box-shadow: 1px 1px 0px;
+  margin-right: 1px;
+  margin-left: 0px;
+  height: 40px;
+  width: 50px;
+  background-color: black;
+  color: beige;
+  position: relative;
+}
+
+.sideButton {
+  border-radius: 10px;
+  border-color: rgb(49, 214, 255);
+  border-style: solid;
+  box-shadow: 1px 1px 0px;
+  margin-right: 1px;
+  margin-left: 0px;
+  height: 40px;
+  width: 50px;
+  background-color: black;
+  color: beige;
+  position: relative;
+}
+
+.clearButton {
+  border-radius: 10px;
+  border-color: rgb(49, 214, 255);
+  border-style: solid;
+  box-shadow: 1px 1px 0px;
+  margin-right: 1px;
+  margin-left: 0px;
+  height: 40px;
+  width: 105px;
+  background-color: black;
+  color: beige;
+  position: relative;
+}
+
+
+
+button:active {
+  left: 1px;
+  top: 1px;
+  box-shadow: 0px 0px;
+
+  /*
+  border-radius: 20%;
+  border-color: rgb(49, 214, 255);
+  border-style: solid;
+  margin-right: 1px;
+  margin-left: 0px;
+  background-color: black;
+  color: beige;
+    height: 39px;
+  width: 49px;
+  */
+}
+
